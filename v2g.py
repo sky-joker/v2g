@@ -12,7 +12,7 @@ def options():
     """
     parser = argparse.ArgumentParser(prog='v2g.py',
                                      add_help=True,
-                                     description='')
+                                     description='Tools to convert video to high quality gif using ffmpeg.')
 
     parser.add_argument('--level', '-l',
                         nargs=1,
