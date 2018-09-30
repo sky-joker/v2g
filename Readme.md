@@ -4,13 +4,22 @@ This tool converts videos to high quality gif using ffmpeg.
 
 ## Requirement
 
-* Python3
-* ffmpeg-python
+* [ffmpeg](https://www.ffmpeg.org/)
+* [ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
 
 ## Instalattion
 
+### example install ffmpeg by CentOS7
+
 ```
-$ git clone https://github.com/sky-joker/v2g.gif
+# rpm -ivh https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+# yum -y install ffmpeg
+```
+
+### install v2g
+
+```
+$ git clone https://github.com/sky-joker/v2g.git
 $ cd v2g
 $ pip install -r requirements.txt
 $ chmod +x v2g.py
