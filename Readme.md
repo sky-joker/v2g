@@ -37,7 +37,7 @@ example.gif
 
 ## License
 
-[MIT](https://github.com/sky-joker/blob/master/LICENSE)
+[MIT](https://github.com/sky-joker/v2g/blob/master/LICENSE.txt)
 
 ## Authour
 
